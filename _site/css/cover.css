@@ -161,9 +161,10 @@ body {
   color: #36203D;
 }
 
-.keynotes-container  h5, h4, a, h5 > a:visited, h5 > a{
+.keynotes-container  h5, h4, h5 > a {
   color: #36203D;
 }
+
 
 .speakers-container {
   display: table;
@@ -183,7 +184,7 @@ body {
 }
 
 .speakers-container a:hover {
-  color: #696B80;
+  color: #5D4056;
 }
 
 .sponsers-container {
