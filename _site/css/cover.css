@@ -5,7 +5,7 @@
 
 
 .navbar {
-  background-color: #333333;
+  background-color: #5D4056;
 }
 
 .navbar a{
@@ -13,7 +13,7 @@
 }
 
 .navbar a:visited {
-  color: #999797;
+  color: #D3D4DA;
 }
 
 /* Custom default button */
@@ -53,7 +53,7 @@ body {
           box-shadow: inset 0 0 100px rgba(0,0,0,.5);*/
   overflow: hidden;
   position: relative;
-  background: url("../images/backgrounds/eggplantbkgrd2.png") no-repeat center center fixed;
+  background: url("../images/backgrounds/lightpurple2.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -72,12 +72,12 @@ body {
   overflow: hidden;
   position: relative;
   /*background: url("../images/geotriangle.png") repeat center center fixed;*/
-  background: url("../images/backgrounds/eggplantbkgrd3.png") repeat center center fixed;
+  background: url("../images/backgrounds/lightpurple.png") repeat center center fixed;
   min-width: 100%;
 }
 
 .schools-container a, p, h5{
-  color:#999797;
+  color:#D3D4DA;
 }
 
 .schools-container h4{
@@ -92,7 +92,7 @@ body {
   overflow: hidden;
   position: relative;
   /*background-color: #EBEFF0;*/
-  background: url("../images/backgrounds/eggplantbkgrd2.png") repeat center center fixed;
+  background: url("../images/backgrounds/lightpurple2.png") repeat center center fixed;
   min-width: 100%;
 }
 
@@ -140,11 +140,10 @@ body {
   overflow: hidden;
   position: relative;
   min-height: 100%;
-  background-color: #EBEFF0;
   /*background: url("../images/crossword.png") repeat center center fixed;*/
   background: url("../images/backgrounds/mtlbg.jpg") repeat center center fixed;
   min-width: 100%;
-  color: #333;
+  color: #5D4056;
 }
 
 .venue-container a:hover, a:visited {
@@ -174,7 +173,7 @@ body {
   overflow: hidden;
   position: relative;
   /*background: url("../images/geotriangle.png") repeat center center fixed;*/
-  background: url("../images/backgrounds/eggplantbkgrd2.png") repeat center center fixed;
+  background: url("../images/backgrounds/lightpurple2.png") repeat center center fixed;
   min-width: 100%;
   color: #fff;
 }
@@ -210,7 +209,7 @@ body {
   min-height: 100%;
   min-width: 100%;
   color: #fff;
-  background: url("../images/backgrounds/eggplantbkgrd2.png") repeat center center fixed;
+  background: url("../images/backgrounds/lightpurple2.png") repeat center center fixed;
 }
 .sponserslogo-container {
   display: table;
@@ -222,7 +221,7 @@ body {
   min-height: 100%;
   /*background: url("../images/crossword.png") repeat center center fixed;*/
   min-width: 100%;
-  color: #333;
+  color: #5D4056;
   background-color: #fff; 
 }
 
@@ -234,13 +233,18 @@ body {
   overflow: hidden;
   position: relative;
   /*background: url("../images/geotriangle.png") repeat center center fixed;*/
-  background: url("../images/backgrounds/eggplantbkgrd3.png") repeat center center fixed;
+  background: url("../images/backgrounds/lightpurple.png") repeat center center fixed;
   min-width: 100%;
   color: #fff;
 }
 
-.faq-container h2, h3, a {
+.faq-container h2, h3 {
   color: #fff;
+}
+
+.faq-container a {
+  color: #5D4056;
+  font-weight: bold;
 }
 
 .faq-container a:hover {
@@ -255,12 +259,13 @@ body {
   overflow: hidden;
   position: relative;
   /*background: url("../images/geotriangle.png") repeat center center fixed;*/
-  background: url("../images/backgrounds/eggplantbkgrd2.png") repeat center center fixed;
+  background: url("../images/backgrounds/lightpurple2.png") repeat center center fixed;
   min-width: 100%;
   color: #fff;
 }
 .coc-container a{
-  color: #fff;
+  color: #5D4056;
+  font-weight: bold;
 }
 
 .coc-container p{
