@@ -12,6 +12,10 @@
   color: #fff;
 }
 
+.navbar a:visited {
+  color: #999797;
+}
+
 /* Custom default button */
 .btn-default,
 .btn-default:hover,
