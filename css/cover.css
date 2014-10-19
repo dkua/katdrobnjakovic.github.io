@@ -16,7 +16,7 @@
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
-  color: #333; /*#333*/
+  color: #fff; /*#333*/
   text-shadow: none; /* Prevent inheritence from `body` */
   background-color: #fff;
   border: 1px solid #fff;
@@ -143,8 +143,12 @@ body {
   color: #333;
 }
 
-.venue-container h2 > a:hover, h3 > a:visited, h3 > a, h2 > a:focus{
-  color: #EBEFF0;
+.venue-container a:hover, a:visited {
+  color: #5D4056;
+}
+
+.venue-container a {
+  color: #36203D;
 }
 
 
