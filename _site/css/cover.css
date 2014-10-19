@@ -200,9 +200,6 @@ body {
   /*background-color: #36203D;*/
 }
 
-
-
-
 .sponsers-container-heading{
   display: table;
   table-layout: fixed;
@@ -248,6 +245,26 @@ body {
 
 .faq-container a:hover {
   color: #696B80;
+}
+
+.coc-container {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  overflow: hidden;
+  position: relative;
+  /*background: url("../images/geotriangle.png") repeat center center fixed;*/
+  background: url("../images/backgrounds/eggplantbkgrd2.png") repeat center center fixed;
+  min-width: 100%;
+  color: #fff;
+}
+.coc-container a{
+  color: #fff;
+}
+
+.coc-container p{
+  text-align: left;
 }
 
 .test{
