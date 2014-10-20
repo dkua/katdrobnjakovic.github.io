@@ -72,7 +72,7 @@ body {
   overflow: hidden;
   position: relative;
   /*background: url("../images/geotriangle.png") repeat center center fixed;*/
-  background: url("../images/backgrounds/lightpurple.png") repeat center center fixed;
+  background: url("../images/backgrounds/lightpurple.png") no-repeat center center fixed;
   min-width: 100%;
 }
 
@@ -92,7 +92,7 @@ body {
   overflow: hidden;
   position: relative;
   /*background-color: #EBEFF0;*/
-  background: url("../images/backgrounds/lightpurple2.png") repeat center center fixed;
+  background: url("../images/backgrounds/lightpurple2.png") no-repeat center center fixed;
   min-width: 100%;
 }
 
@@ -141,7 +141,7 @@ body {
   position: relative;
   min-height: 100%;
   /*background: url("../images/crossword.png") repeat center center fixed;*/
-  background: url("../images/backgrounds/mtlbg.jpg") repeat center center fixed;
+  background: url("../images/backgrounds/mtlbg.jpg") no-repeat center center fixed;
   min-width: 100%;
   color: #5D4056;
 }
@@ -173,7 +173,7 @@ body {
   overflow: hidden;
   position: relative;
   /*background: url("../images/geotriangle.png") repeat center center fixed;*/
-  background: url("../images/backgrounds/lightpurple2.png") repeat center center fixed;
+  background: url("../images/backgrounds/lightpurple2.png") no-repeat center center fixed;
   min-width: 100%;
   color: #fff;
 }
@@ -209,7 +209,7 @@ body {
   min-height: 100%;
   min-width: 100%;
   color: #fff;
-  background: url("../images/backgrounds/lightpurple2.png") repeat center center fixed;
+  background: url("../images/backgrounds/lightpurple2.png") no-repeat center center fixed;
 }
 .sponserslogo-container {
   display: table;
@@ -233,7 +233,7 @@ body {
   overflow: hidden;
   position: relative;
   /*background: url("../images/geotriangle.png") repeat center center fixed;*/
-  background: url("../images/backgrounds/lightpurple.png") repeat center center fixed;
+  background: url("../images/backgrounds/lightpurple.png") no-repeat center center fixed;
   min-width: 100%;
   color: #fff;
 }
@@ -258,8 +258,7 @@ body {
   height: 100%; /* For at least Firefox */
   overflow: hidden;
   position: relative;
-  /*background: url("../images/geotriangle.png") repeat center center fixed;*/
-  background: url("../images/backgrounds/lightpurple2.png") repeat center center fixed;
+  background: url("../images/backgrounds/lightpurple2.png") no-repeat center center fixed;
   min-width: 100%;
   color: #fff;
 }
