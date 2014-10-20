@@ -100,10 +100,18 @@ body {
   color: #fff;
 }
 
+.team-container a:hover {
+  color: #5D4056;
+}
+
 .teamText {
   padding-right: 10%;
   padding-top: 5%;
   padding-bottom: 10%;
+}
+
+.teamText h4 {
+  color: #fff;
 }
 
 .team-img {
