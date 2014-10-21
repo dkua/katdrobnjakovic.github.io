@@ -20,9 +20,9 @@
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
-  color: #fff; /*#333*/
+  color: #5D4056; 
   text-shadow: none; /* Prevent inheritence from `body` */
-  background-color: #fff;
+  background-color: #696B80;
   border: 1px solid #fff;
 }
 
@@ -295,7 +295,7 @@ body {
     display:inline-block;
     float:none;
     /* reset the text-align */
-    text-align:left;
+    text-align:center;
     /* inline-block space fix */
     margin-right:-4px;
 }
