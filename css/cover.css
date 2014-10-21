@@ -279,34 +279,13 @@ body {
   text-align: left;
 }
 
-.container-xs-height {
-    display:table;
-    padding-left:0px;
-    padding-right:0px;
-}
-.row-xs-height {
-    display:table-row;
-}
-.col-xs-height {
-    display:table-cell;
-    float:none;
-}
+
 
 /* firefox fix */
 .img-responsive {
     width: 100%;
 }
 
-/* vertical alignment styles */
-.col-top {
-    vertical-align:top;
-}
-.col-middle {
-    vertical-align:middle;
-}
-.col-bottom {
-    vertical-align:bottom;
-}
 
 /* centered columns styles */
 .row-centered {
