@@ -104,6 +104,10 @@ body {
   color: #5D4056;
 }
 
+.team-container p {
+   font-weight: 300;
+}
+
 .teamText {
   padding-right: 10%;
   padding-top: 5%;
@@ -113,6 +117,8 @@ body {
 .teamText h4 {
   color: #fff;
 }
+
+
 
 .team-img {
   height:300px;
