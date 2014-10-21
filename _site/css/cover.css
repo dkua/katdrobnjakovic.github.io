@@ -305,6 +305,12 @@ body {
     min-width:320px;
 }
 
+.col-min-team {
+    /* custom min width */
+    min-width:380px;
+}
+
+
 .test{
   background: #9F2064;
   opacity: 0.9;
