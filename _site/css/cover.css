@@ -196,7 +196,7 @@ body {
   color: #5D4056;
 }
 
-.sponsers-container {
+.sponsors-container {
   display: table;
   table-layout: fixed;
   width: 100%;
@@ -209,7 +209,7 @@ body {
   /*background-color: #36203D;*/
 }
 
-.sponsers-container-heading{
+.sponsors-container-heading{
   display: table;
   table-layout: fixed;
   width: 100%;
@@ -221,7 +221,7 @@ body {
   color: #fff;
   background: url("../images/backgrounds/lightpurple2.png") no-repeat center center fixed;
 }
-.sponserslogo-container {
+.sponsorslogo-container {
   display: table;
   table-layout: fixed;
   width: 100%;
