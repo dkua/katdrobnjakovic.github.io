@@ -32,7 +32,7 @@ p {
 .btn-default:focus {
   color: #5D4056; 
   text-shadow: none; /* Prevent inheritence from `body` */
-  background-color: #696B80;
+  background-color: #D3D4DA;
   border: 1px solid #fff;
 }
 
