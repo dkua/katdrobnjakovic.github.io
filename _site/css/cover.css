@@ -1,8 +1,10 @@
 /*
  * Globals
  */
-
-
+a:hover {
+  font-size: larger;
+  text-decoration: none;
+}
 
 .navbar {
   background-color: #5D4056;
@@ -17,6 +19,8 @@
 .navbar a:visited {
   color: #D3D4DA;
 }
+
+
 
 /* Custom default button */
 .btn-default,
@@ -225,7 +229,7 @@ body {
   height: 100%; /* For at least Firefox */
   overflow: hidden;
   position: relative;
-  min-height: 100%;
+  min-height: 100px;
   min-width: 100%;
   color: #fff;
   background: url("../images/backgrounds/lightpurple2.png") no-repeat center center fixed;
