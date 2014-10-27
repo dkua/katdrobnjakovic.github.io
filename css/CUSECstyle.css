@@ -89,8 +89,553 @@ body {
     margin-top: 25%;
 }
 
-.cusecTitle {
-    margin-top: 10%;
-    text-align: left;
-    font-size: 30px;
+<<<<<<< HEAD
+@media(min-width: 320px) and (max-width:360px){
+    #cusecTitle {
+        margin-top: 20%;
+    }
+    .homeText {
+        font-weight: 300;
+    }
+    #homeText1 {
+        font-family: "Lato", sans-serif;
+        font-weight: 100;
+        font-size: 36px;
+    }
+    #homeText2 {
+        font-size: 24px;
+    }
+    
+    #schoolTitle {
+        font-size:36px;
+        font-family: "Lato", sans-serif;
+        font-weight: 300;
+        margin-top: 10%;
+    }
+    
+    #schoolTitle1{
+        font-size:24px;
+        font-family: "Lato", sans-serif;
+        font-weight: 100;
+        text-align: left;
+        margin-bottom: 10%;
+    }
+    
+    
+    #schoolEntry1{
+        font-size: 12px;
+        font-family: "Lato", sans-serif;
+        font-weight:300;
+        margin-bottom: 5%;
+    }
 }
+
+@media(min-width: 768px) and (max-width:992px){
+    #cusecTitle {
+        margin-top: 7%;
+    }
+    .homeText {
+        font-weight: 300;
+        font-size: 24px;
+    }
+
+    #homeText1 {
+        font-family: "Lato", sans-serif;
+        font-weight: 100;
+        font-size: 64px;
+    }
+    #homeText2 {
+        font-size: 48px;
+    }
+    #schoolTitle {
+        font-size:70px;
+        font-family: "Lato", sans-serif;
+        font-weight: 300;
+        margin-top: 5%;
+    }
+    
+    #schoolTitle1{
+        font-size:34px;
+        font-family: "Lato", sans-serif;
+        font-weight: 100;
+        margin: 5%;
+    }
+    
+    #schoolEntry1{
+        font-size: 26px;
+        font-family: "Lato", sans-serif;
+        font-weight:300;
+        margin-bottom: 3%;
+    }
+    #schoolEntry2{
+        font-size: 20px;
+        font-family: "Lato", sans-serif;
+        font-weight: 100;
+        margin-bottom: 15%;
+    }
+    
+    #keynotesTitle{
+        font-size: 70px;
+        font-family: "Lato", sans-serif;
+        font-weight: 300;
+        margin: 5%;
+    }
+     
+    #keynoteName{
+        font-size: 26px;
+        font-family: "Lato", sans-serif;
+        font-weight:300;
+        margin-top: 5%;
+        margin-bottom: 3%;
+    }
+    #keynoteHandle{
+        font-size: 22px;
+        font-family: "Lato", sans-serif;
+        font-weight:100;
+        margin-top: 5%;
+        margin-bottom: 3%;
+    }
+    
+    #sponsorTitle{
+       font-size: 70px;
+        font-family: "Lato", sans-serif;
+        font-weight: 300;
+        color:black;
+        margin: 5%;
+    }
+    
+    #sponsorPhoto{
+        margin-bottom: 5%;
+    }
+}
+    
+
+@media(min-width: 1280px) and (max-width:1920px){
+    #cusecTitle {
+        margin-top: 2%;
+    }
+    .homeText {
+        font-weight: 300;
+    }
+
+    #homeText1 {
+        font-family: "Lato", sans-serif;
+        font-weight: 100;
+        font-size: 128px;
+    }
+    #homeText2 {
+        font-size: 64px;
+    }
+     #schoolTitle {
+        font-size:70px;
+        font-family: "Lato", sans-serif;
+        font-weight: 300;
+        margin-top: 5%;
+    }
+    
+    #schoolTitle1{
+        font-size:50px;
+        font-family: "Lato", sans-serif;
+        font-weight: 100;
+        margin: 5%;
+    }
+    
+    #schoolEntry1{
+        font-size: 35px;
+        font-family: "Lato", sans-serif;
+        font-weight:300;
+        margin-bottom: 3%;
+    }
+    #schoolEntry2{
+        font-size: 25px;
+        font-family: "Lato", sans-serif;
+        font-weight: 100;
+        margin-bottom: 15%;
+    }
+    
+    #keynotesTitle{
+        font-size: 70px;
+        font-family: "Lato", sans-serif;
+        font-weight: 300;
+        margin: 5%;
+    }
+     
+    #keynoteName{
+        font-size: 26px;
+        font-family: "Lato", sans-serif;
+        font-weight:300;
+        margin-top: 5%;
+        margin-bottom: 3%;
+    }
+    #keynoteHandle{
+        font-size: 22px;
+        font-family: "Lato", sans-serif;
+        font-weight:100;
+        margin-top: 5%;
+        margin-bottom: 3%;
+    }
+    
+    #sponsorTitle{
+       font-size: 70px;
+        font-family: "Lato", sans-serif;
+        font-weight: 300;
+        color:black;
+        margin: 5%;
+    }
+    
+    #sponsorPhoto{
+        margin-bottom: 5%;
+    }
+}
+
+#map-container {
+    height:400px;
+}
+
+/*
+ * Globals
+ */
+a:hover {
+  text-decoration: none;
+}
+
+p {
+  font-weight: 300;
+}
+
+.navbar {
+  background-color: #5D4056;
+  margin-bottom: 0px;
+
+}
+
+.navbar a{
+  color: #fff;
+}
+
+.navbar a:visited {
+  color: #D3D4DA;
+}
+
+
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #5D4056; 
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: #D3D4DA;
+  border: 1px solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body,
+.row-offcanvas {
+  height: 100%;
+}       
+html,
+body {
+  text-align: center;
+  /*text-shadow: 0 1px 3px rgba(0,0,0,.5); */
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  /*-webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);*/
+  overflow: hidden;
+  position: relative;
+  background: #696B80;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background: cover;
+}
+
+.border-container {
+  height: 35px;
+  background-color: #333;
+}
+.schools-container {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  overflow: hidden;
+  position: relative;
+  /*background: url("../images/geotriangle.png") repeat center center fixed;*/
+  background: #696B80;
+  min-width: 100%;
+}
+
+.schools-container a, p, h5{
+  color:#D3D4DA;
+}
+
+.schools-container h4{
+  color:#fff;
+}
+
+.team-container {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  overflow: hidden;
+  position: relative;
+  /*background-color: #EBEFF0;*/
+  background: url("../images/backgrounds/lightpurple2.png") no-repeat center center fixed;
+  min-width: 100%;
+}
+
+.team-container h2, h4, h5 {
+  color: #fff;
+}
+
+.team-container a:hover {
+  color: #5D4056;
+}
+
+.team-img {
+  height:300px;
+  width:300px;
+  overflow:hidden;
+  border-radius:50%;
+}
+.team-img img {
+  -webkit-transform:translate(-50%);
+  margin-left:135px;
+}
+
+.circle-image{
+    width:200px;
+    height:200px;
+    border-radius:70%;
+    overflow:hidden;
+    display:block;
+    background-position-y:25% 
+}
+.circle-image img{
+    -webkit-transform:translate(-50%);
+  margin-left:135px;
+}
+
+
+
+.venue-container {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  max-height: 100%;
+  overflow: hidden;
+  position: relative;
+  min-height: 100%;
+  /*background: url("../images/crossword.png") repeat center center fixed;*/
+  background: url("../images/backgrounds/mtlbg.jpg") no-repeat center center fixed;
+  min-width: 100%;
+  color: #5D4056;
+}
+
+.venue-container a:hover, a:visited {
+  color: #5D4056;
+}
+
+.venue-container a {
+  color: #36203D;
+}
+
+.keynotes-container {
+  background-color: #fff;
+  color: #36203D;
+}
+
+.keynotes-container  h5, h4, h5 > a {
+  color: #36203D;
+}
+
+
+.speakers-container {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  overflow: hidden;
+  position: relative;
+  /*background: url("../images/geotriangle.png") repeat center center fixed;*/
+  background: url("../images/backgrounds/lightpurple2.png") no-repeat center center fixed;
+  min-width: 100%;
+  color: #fff;
+}
+
+.speakers-container h4, h5, a {
+  color: #fff;
+}
+
+.speakers-container a:hover {
+  color: #5D4056;
+}
+
+.sponsors-container {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  overflow: hidden;
+  position: relative;
+  min-height: 100%;
+  min-width: 100%;
+  color: #fff;
+  background-image:url(images/backgrounds/seamless_paper_texture.png);
+}
+
+.sponsors-container-heading{
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  overflow: hidden;
+  position: relative;
+  min-height: 100px;
+  min-width: 100%;
+  color: #fff;
+}
+.sponsorslogo-container {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  max-height: 50%;
+  overflow: hidden;
+  position: relative;
+  min-height: 100%;
+  min-width: 100%;
+  color: #5D4056;
+  margin-bottom: 5%;
+}
+
+.faq-container {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  overflow: hidden;
+  position: relative;
+  /*background: url("../images/geotriangle.png") repeat center center fixed;*/
+  background: url("../images/backgrounds/lightpurple.png") no-repeat center center fixed;
+  min-width: 100%;
+  color: #fff;
+}
+
+.faq-container h2, h3 {
+  color: #fff;
+}
+
+.faq-container a {
+  color: #5D4056;
+  font-weight: bold;
+}
+
+.faq-container a:hover {
+  color: #696B80;
+}
+
+.coc-container {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  overflow: hidden;
+  position: relative;
+  background: url("../images/backgrounds/lightpurple2.png") no-repeat center center fixed;
+  min-width: 100%;
+  color: #fff;
+}
+.coc-container a{
+  color: #5D4056;
+  font-weight: bold;
+}
+
+.coc-container p{
+  text-align: left;
+}
+
+
+
+/* firefox fix */
+.img-responsive {
+    width: 100%;
+}
+
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:center;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.col-min {
+    /* custom min width */
+    min-width:320px;
+}
+
+.col-min-team {
+    /* custom min width */
+    min-width:380px;
+}
+
+
+.homeText {
+    font-weight: 300;
+}
+
+#homeText1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+}
+
+.btn-purple {
+    color: #fff; 
+    text-shadow: none; /* Prevent inheritence from `body` */
+    background-color: #5D4056;
+    border: 1px solid #000;
+    text-color: white;
+    margin: 5% !important; /*Bottom-margin conflicts with btn bottom-margin */
+}
+
+#derp {
+    color:white;
+    font-size: 65px;
+}
+
+#keynotes {
+    font-size: 35px;
+    margin-top: 10%;
+}
+
+.logo-container {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
