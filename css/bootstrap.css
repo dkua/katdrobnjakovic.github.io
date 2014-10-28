@@ -12,7 +12,6 @@ html {
 }
 body {
   margin: 0;
-  padding-top: 50px;
 }
 article,
 aside,
@@ -241,7 +240,7 @@ th {
   }
   .navbar {
     display: none;
-    background-color: #333333;
+    
   }
   .table td,
   .table th {
@@ -900,7 +899,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #fff;
+  color: #333;
   background-color: #fff;
 }
 input,
@@ -1106,19 +1105,15 @@ p {
 }
 .lead {
   margin-bottom: 20px;
-  font-size: 30px;
+  font-size: 16px;
   font-weight: 300;
   line-height: 1.4;
 }
-.lead-hero {
-  font-size: 2em;
-  font-weight: 400;
-  line-height: 1.4;
-  font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    color: black;
+@media (min-width: 768px) {
+  .lead {
+    font-size: 21px;
+  }
 }
-
 small,
 .small {
   font-size: 85%;
@@ -1223,10 +1218,6 @@ a.bg-danger:hover {
   padding-bottom: 9px;
   margin: 40px 0 20px;
   border-bottom: 1px solid #eee;
-}
-ul{
-  list-style-type: none;
-  padding-left:0;
 }
 ul,
 ol {
@@ -1406,7 +1397,6 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
-
 @media (min-width: 768px) {
   .container {
     width: 750px;
@@ -2825,12 +2815,6 @@ fieldset[disabled] .btn-default.active {
   background-color: #428bca;
   border-color: #357ebd;
 }
-
-.btn-primary-cusec{
-  color: #fff;
-  background-color: #5D4056;
-  border-color: #5D4056;
-}
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
@@ -3788,7 +3772,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   min-height: 50px;
   margin-bottom: 20px;
   border: 1px solid transparent;
-  background-color: #333333;
 }
 @media (min-width: 768px) {
   .navbar {
@@ -3798,6 +3781,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 @media (min-width: 768px) {
   .navbar-header {
     float: left;
+      
   }
 }
 .navbar-collapse {
@@ -4423,6 +4407,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   margin: 20px 0;
   text-align: center;
   list-style: none;
+    
 }
 .pager li {
   display: inline;
@@ -5394,6 +5379,7 @@ button.close {
   overflow: hidden;
 }
 .modal {
+
   position: fixed;
   top: 0;
   right: 0;
@@ -5430,6 +5416,7 @@ button.close {
 .modal-content {
   position: relative;
   background-color: #fff;
+    opacity: 0.2;
   -webkit-background-clip: padding-box;
           background-clip: padding-box;
   border: 1px solid #999;
@@ -5469,8 +5456,11 @@ button.close {
   line-height: 1.42857143;
 }
 .modal-body {
+
   position: relative;
   padding: 15px;
+   
+    
 }
 .modal-footer {
   padding: 15px;
@@ -5753,6 +5743,7 @@ button.close {
 .carousel-inner > .next,
 .carousel-inner > .prev {
   display: block;
+    
 }
 .carousel-inner > .active {
   left: 0;
@@ -6219,48 +6210,3 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
-
-.lead-about {
-    margin-bottom: 20px;
-  font-size: 3.5em;
-  font-weight: 300;
-  line-height: 1.4;
-    font-family: 'Open Sans', sans-serif;
-    display: table;
-  table-layout: fixed;
-    width: inherit;
-    overflow:inherit;
-    position: relative;
-}
-
-
-
-.lead-hero-date {
-    margin-bottom: 10px;
-  font-size: 1.5em;
-  font-weight: 300;
-  line-height: 1.4;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    color: black;
-}
-
-.date {
-    font-weight: 300;
-}
-
-.navbar-nav {
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 15px; 
-  margin-right: auto;
-  margin-left: auto;
-  margin-right: 15px;
-}
-
-.navbar-nav a{
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-
