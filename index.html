@@ -1,356 +1,532 @@
 <!DOCTYPE html>
+<!--Lovingly Crafted by Rohan Likhite (.com) -->
+
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="">
-<meta name="author" content="Miggy Wiggy">
-<link rel="icon" href="../../favicon.ico">
-<title>CUSEC 2015</title>
-<!-- Bootstrap core CSS -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Rohan">
 
-<link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+    <title>CUSEC 2015</title>
 
-<link href="css/CUSECstyle.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
 
-<link href="css/bootstrap.css" rel="stylesheet">
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
-<link href="//fonts.googleapis.com/css?family=Lato:100italic,100,300italic,300,400italic,400,700italic,700,900italic,900" rel="stylesheet" type="text/css">
-
-<script src="js/ie-emulation-modes-warning.js"></script>
-<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<script src="js/ie10-viewport-bug-workaround.js"></script>
-<!-- tickets -->
-<script type="text/javascript" src="https://guestlistapp.com/javascripts/guestlist-embed.js"></script>
-</head>
+    <!-- Add custom CSS here -->
+    <link href="css/cusec.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
     
+    <!-- tickets -->
+<script type="text/javascript" src="https://guestlistapp.com/javascripts/guestlist-embed.js"></script>
+    
+    <!--Fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+    
+</head>
+
 <body>
 
-        <a id="menu-toggle" href="#" class="btn btn-primary btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <!-- Side Menu -->
+    <a id="menu-toggle" href="#" class="btn btn-primary btn-lg toggle"><i class="fa fa-bars"></i></a>
     <div id="sidebar-wrapper">
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-            
-            <li id="menu"><a href="#home">Home</a>
+            <li class="sidebar-brand">CUSEC 2015</a>
             </li>
-            <li><a href="#venue">Venue</a>
+            <li><a href="#top">Home</a>
+            </li>
+            <li><a href="#about">About</a>
+            </li>
+      <li><a href="#speakers">Speakers</a>
             </li>
             <li><a href="#schools">Schools</a>
             </li>
-            <li><a href="#speakers">Speakers</a>
+          
+            <li><a href="#democamp">Demo Camp</a>
+            </li>
+            <li><a href="">Team</a>
             </li>
             <li><a href="#sponsors">Sponsors</a>
             </li>
-            <li><a href="#team">Team</a>
-            </li>
-            <li><a href="#coc">Code of Conduct</a>
-            </li>
-            <li><a href="#faq">FAQ</a>
+            <li><a href="#contact">Contact</a>
             </li>
         </ul>
     </div>
+    <!-- /Side Menu -->
 
-<section class="site-wrapper container-fluid" id="home">
-    <row>
-        <div id="cusecTitle" class="col-xs-12">
-            <img src="images/logo/EventLogoPurple-1800.png" class="img-responsive" alt="Responsive Image">
-        </div>
-    </row>
-
-    <row>
-        <div class="col-xs-12  homeText">
-            <div id="homeText1">When?</div>
-            <div id="homeText2">
-                January 15 - 17
-            </div>
-        </div>
-    </row>
-
-    <row>
-        <div class="col-xs-12 homeText">
-            <div id="homeText1">
-                Where?
-            </div>
-            <div id="homeText2">
-                Montréal, Quebec, Canada
-            </div>
-        </div>
-    </row>
-
-    <row>
-        <button class="btn-purple btn">        <a class="guestlist-event-288732" id="derp" href="#">Get your ticket! </a>
-        </button>   
-    </row>
-</section>
-
-<!-- IMPLEMENT MAP -->
-<section class="container-fluid" id="venue">
-    <div id="map-container">
-    </div>
-</section>
-
-<section class="schools-container container-fluid " id="schools">
-    <div class="row" id="schoolTitle">
-        <div class="col-xs-12">
-            SCHOOLS
-        </div>
-    </div>
-
-    <div class="row ">
-        <div class="col-xs-10 col-sm-11" id="schoolTitle1">
-                Get in touch with your school’s Head Delegate to find out more about getting to CUSEC with your school!
-        </div>
-    </div>
-    
-    <div class="row">
-        <div class="col-xs-6 col-sm-6">
-            <div id="schoolEntry1">
-                Carleton University
-            </div>
-            <div id="schoolEntry2">
-                <a href="mailto:carleton@cusec.net?Subject=CUSEC2015">
-                    Laura Alkhoury
-                </a>
-            </div>
-        </div>
-        
-        <div class="col-xs-6 col-sm-6">
-            <div id="schoolEntry1"
-                 >Concordia University
-            </div>
-            <div id="schoolEntry2">
-                <a href="mailto:concordia@cusec.net?Subject=CUSEC2015">
-                    TingLi Lorigiano
-                </a>
-            </div>
-        </div>
-    </div> 
-
-    <div class="row">
-        <div class="col-xs-6 col-sm-6">
-                <div id="schoolEntry1">
-                    McGill University
-                </div>
-                <div id="schoolEntry2">
-                    <a href="mailto:mcgill@cusec.net?Subject=CUSEC2015">
-                        Maude Lemaire
-                    </a>
-                </div>
-        </div>
+    <!-- Full Page Image Header Area -->
+    <div id="top" class="header">
+        <div id="logo"></div>
+        <div class="vert-text1">
             
-        <div class="col-xs-6 col-sm-6">
-            <div id="schoolEntry1">
-                McMaster University
-            </div>
-            <div id="schoolEntry2">
-                <a href="mailto:mcmaster@cusec.net?Subject=CUSEC2015">
-                    Peter Hoang
-                </a>
+            <h1>
+                January 15-17th 2015
+            </h1>
+            
+             <h1>Montreal,Quebec, Canada
+            </h1>
+            <br/>
+            <a href="#" class="btn btn-lg btn-danger guestlist-event-288732"><span class="glyphicon glyphicon-shopping-cart"></span> Purchase Tickets</a>
+           
+        </div>
+    </div>
+    <!-- /Full Page Image Header Area -->
+
+    <!-- Intro -->
+    <div id="about" class="intro">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                    <h2>Event Details</h2>
+                    <p class="lead">CUSEC brings together passionate students from across Canada. Meet like-minded peers, learn from world-renowned experts and discover career opportunities with exciting companies.</p>
+                    <div class="col-md-12 col-md-12">
+                    <div class="col-md-4 col-sm-12">
+                    <button class="btn btn-danger btn-block" data-toggle="modal" data-target="#cocModal">Code of Conduct</button>                
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                    <button class="btn btn-danger btn-block" data-toggle="modal" data-target="#faqModal">FAQ's</button>                
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                    <button class="btn btn-danger btn-block" data-toggle="modal" data-target="#venueModal">Venue</button>                
+                    </div>
+                    
+                    </div>
+                    <br/>
+                    <div class="col-md-12 col-md-12">
+                    <h2>For more information, contact this year's chairs</h2>
+                        <button class="btn btn-danger"><a href="mailto:chair@cusec.net" class="white">Send us an Email</a></button></div>
+                </div>
             </div>
         </div>
     </div>
-    
+    <!-- /Intro -->
 
-    <div class="row">
-        <div class="col-xs-6 col-sm-6">
-            <div id="schoolEntry1">
-                Queen's University
-            </div>
-            <div id="schoolEntry2">
-                <a href="mailto:queens@cusec.net?Subject=CUSEC2015">
-                    James Pang
-                </a>
-            </div>
-        </div>
+<!-- Code of Conduct Modal-->
+
+<div class="modal fade" id="cocModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Code of Conduct</h4>
+          Please read over CUSEC's code of conduct before attending the conference.
+      </div>
+      <div class="modal-body">
+        <p>
+CUSEC is dedicated to providing a harassment­free conference experience for everyone, regardless of gender, gender identity and expression, sexual orientation, ability, physical appearance, body size, race, age or religion. We do not tolerate harassment of conference participants in any form. Sexual language is not appropriate for any conference venue, including talks. Conference participants violating these rules may be expelled from the conference (without a refund) at the discretion of the conference organizers.</p>
+<p>
+Harassment includes offensive verbal comments related to gender, gender identity and expression, sexual orientation, ability, physical appearance, body size, race, age, religion, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention. This includes posting derogatory pictures, slurs or otherwise of speakers, staff, or any other CUSEC attendees on social media channels. Participants asked to stop any harassing behavior are expected to comply immediately.</p>
+<p>
+Exhibitors in the expo hall, sponsor or vendor booths, or similar activities are also subject to the anti­harassment policy. In particular, exhibitors should not use sexualized images, activities, or other material. Booth staff (including volunteers) should not use sexualized clothing/uniforms/costumes, or otherwise create a hostile and/or offensive environment.</p>
+<p>
+If a participant engages in harassing behavior, the conference organizers may take any action they deem appropriate, including warning the offender or expulsion from the conference with no refund. If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of conference staff immediately. Conference staff can be identified by [Special Color]t­shirts or [Special Color]special badges Conference staff will be happy to help participants contact hotel/venue security or local law enforcement, or otherwise assist those experiencing harassment to feel safe for the duration of the conference. We value your attendance.</p>
+<p>
+Any general inquiries: <a href="mailto:info@cusec.net?Subject=CUSEC2015">info@cusec.net</a><br>
+[Phone number for conference security or organizers]<br>
+[Phone number for hotel/venue security] <br>
+Local law enforcement: SPVM<br>
+INFOCRIME: 514 393­1133<br>
+Texting: 274637 (your message is preceded by the word ICM header uses).<br>
+For calls that are not urgent, call 514­280­2222<br>
+For urgent calls: 9­1­1<br>
+<br>
+We expect participants to follow these rules at all conference venues and conference­related social events.
+</p>
+
+
+CUSEC Organizers
+
+
+Warnings
+
+
+<p>
+Any member of conference staff can issue a verbal warning to a participant that their behavior violates the conference's anti­harassment policy. Warnings should be reported to the Chairs via email ( <a href="mailto:chair@cusec.net?Subject=CUSEC2015">chair@cusec.net</a> ) or phone as soon as practical. The report should include:<br>
+● Identifying information (name/school) of the participant<br>
+● The time you issued the warning<br>
+● The behavior that was in violation<br>
+● The approximate time of the behavior (if different than the time of warning)<br>
+● The circumstances surrounding the incident<br>
+● Your identity<br>
+● Other people involved in the incident<br>
+</p>
+
+Presentations
+
+<p>
+Presentations or similar events should not be stopped for one­time gaffes or minor problems, although a member of conference staff should speak to the presenter afterward. However, staff (Chairs, Director of Speakers, or Event Directors) should take immediate action to politely and calmly stop any presentation or event that repeatedly or seriously violates the anti­harassment policy. For example, simply say "I'm sorry, this presentation cannot be continued at the present time" with no further explanation.
+</p>
+
+Talking Reports
+
+<p>
+When taking a report from someone experiencing harassment you should record what they say and reassure them they are being taken seriously, but avoid making specific promises about what actions the organizers will take. Ask for any other information if the reporter has not volunteered it (such as time, place) but do not pressure them to provide it if they are reluctant. Even if the report lacks important details such as the identity of the person taking the harassing actions, it should still be recorded and passed along to the appropriate staff member(s). If the reporter desires it, arrange for an escort by conference staff or a trusted person, contact a friend, and contact local law enforcement. Do not pressure the reporter to take any action if they do not want to do it. Respect the reporter's privacy by not sharing unnecessary details with others, especially individuals who were not involved with the situation or non­staff members.</p>
+<p>
+For clarification on what is useful for a report, please refer to the Warnings section under CUSEC Organizers.
+</p>
+
+
+Expulsion
+
+<p>
+A participant may be expelled by the decision of any of the above listed entities for whatever reasons they deem sufficient. However, here are some general guidelines for when a participant should be expelled:<br>
+● A second offense resulting in a warning from staff<br>
+● Continuing to harass after any "No" or "Stop" instruction<br>
+● A pattern of harassing behavior, with or without warnings<br>
+● A single serious offense (e.g., punching or groping someone)<br>
+● A single obviously intentional offense (e.g., taking inappropriate photos or posting lewd
+photography of people at the conference)
+</p>
+<p>
+Hotel/venue security and local authorities should be contacted when appropriate. [Repeat conf/hotel/venue/law enforcement/hotline contact info here]
+</p>
+
+
+Public statements
+
+<p>
+As a general rule, conference staff should not make any public statements about the behavior of any individual people during or after the conference. As an organizer you are looking out for the best interest of the participants and will not single anyone out for their behaviour. Furthermore, any media requests will go through the Chairs and Advisors.
+</p>
+<p>In general, consult with other staff members when possible but act when necessary.</p>
+
+      
+    
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         
-        <div class="col-xs-6 col-sm-6">
-            <div id="schoolEntry1">
-                University of Cincinnati
-            </div>
-            <div id="schoolEntry2">
-                <a href="mailto:cincinnati@cusec.net?Subject=CUSEC2015">
-                    Angelika Modawal
-                </a>
-            </div>
-        </div>
+      </div>
     </div>
-
-
-    <div class="row">
-        <div class="col-xs-6 col-sm-6">
-            <div id="schoolEntry1">
-                University of Guelph
-            </div>
-            <div id="schoolEntry2">
-                <a href="mailto:guelph@cusec.net?Subject=CUSEC2015">
-                    Julian Horvat
-                </a>
-            </div>
-        </div>
-
-        <div class="col-xs-6 col-sm-6">
-            <div id="schoolEntry1">
-                University of Ottawa
-            </div>
-            <div id="schoolEntry2">
-                <a href="mailto:ottawa@cusec.net?Subject=CUSEC2015">
-                    Keiko Climaco
-                </a>
-            </div>
-        </div>
-    </div>
-    
-    <div class="row">
-        <div class="col-xs-6 col-sm-6">
-            <div id="schoolEntry1">
-                University of Toronto
-            </div>
-            <div id="schoolEntry2">
-                <a href="mailto:toronto@cusec.net?Subject=CUSEC2015">
-                    Edward Ntiri &amp; Tahia Khan
-                </a>
-            </div>
-        </div>
-        <div class="col-xs-6 col-sm-6">
-            <div id="schoolEntry1">
-                University of Waterloo
-            </div>
-            <div id="schoolEntry2">
-                <a href="mailto:waterloo@cusec.net?Subject=CUSEC2015">
-                    Farwa Naqi
-                </a>
-            </div>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-xs-12 col-sm-12">
-            <div id="schoolEntry1">
-                York University
-            </div>
-            <div id="schoolEntry2">
-                <a href="mailto:york@cusec.net?Subject=CUSEC2015">
-                    Ursula Sarracini
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
-    
-<section class="keynotes-container container-fluid " id="keynotes">
-    <div class="row" id="keynotesTitle">
-        KEYNOTES
-    </div>
-
-<div class="row">
-        <div class="col-xs-6 col-md-4 col-lg-4">
-            <img src="images/speakers/1024px-La_Banquise_Poutine.jpg" class="img-responsive img-circle">
-        <div id="keynoteName">
-            Aaron Patterson
-        </div>
-        <div id="keynoteHandle">
-            <a href="https://twitter.com/tenderlove">
-                @tenderlove
-            </a>
-        </div>
-        </div>
-    
-    <div class="col-xs-6 col-md-4 col-lg-4">
-        <img src="images/speakers/1024px-La_Banquise_Poutine.jpg" class="img-responsive img-circle">
-        <div id="keynoteName">
-            Julie Pagano
-        </div>
-        <div id="keynoteHandle">
-            <a href="http://juliepagano.com">
-                juliepagano.com
-            </a>
-        </div>
-    </div>
-    
-    <div class="col-xs-6 col-md-4 col-lg-4">
-        <img src="images/speakers/1024px-La_Banquise_Poutine.jpg" class="img-responsive img-circle">
-        <div id="keynoteName">
-            Camille Fournier
-        </div>
-        <div id="keynoteHandle">
-            <a href="https://twitter.com/skamille">
-                @skamille
-            </a>
-        </div>
-    </div>
-
-    <div class=" col-xs-6 col-md-4 col-lg-4">
-        <img src="images/speakers/1024px-La_Banquise_Poutine.jpg" class="img-responsive img-circle">
-        <div id="keynoteName">
-            Sandi Metz
-        </div>
-        <div id="keynoteHandle">
-            <a href="https://twitter.com/sandimetz">
-                @sandimetz
-            </a>
-        </div>
-    </div>
-
-    <div class="col-xs-6 col-md-4 col-lg-4">
-        <img src="images/speakers/1024px-La_Banquise_Poutine.jpg" class="img-responsive img-circle">
-        <div id="keynoteName">
-            Dr. Jeff Chastine
-        </div>
-    </div>
-    <div class="col-xs-6 col-md-4 col-lg-4">
-       <img src="images/speakers/1024px-La_Banquise_Poutine.jpg" class="img-responsive img-circle">
-        <div id="keynoteName">
-            Bruce Schneier
-        </div>
-
-        <div id="keynoteHandle">
-            <a href="https://twitter.com/schneierblog">
-                @schneierblog
-            </a>
-        </div>
-    </div>
+  </div>
 </div>
+<!--/ COC modal-->
 
-</section>
-    
-<section class="sponsors-container container-fluid" id="sponsors">
-    <div class="row row-centered">
-        <div class="text-center" id="sponsorTitle">
-            SPONSORS
-        </div>
-    </div>
+<!-- FAQ Modal-->
 
-    <div class="row">    
-        <div class="col-xs-6 col-sm-6" id="sponsorPhoto">  
-            <a href="http://www.cae.com/">
-                <img src="images/speakers/1024px-La_Banquise_Poutine.jpg" class="img-responsive">
-            </a>
-        </div>
+<div class="modal fade" id="faqModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">CUSEC FAQ's</h4>
+          Here are a few frequently asked questions for you to look over.
+      </div>
+      <div class="modal-body">
+        
             
-        <div class="col-xs-6 col-sm-6" id="sponsorPhoto">
-            <a href="https://www.dreamspark.ca/">
-                <img src="images/speakers/1024px-La_Banquise_Poutine.jpg" class="img-responsive">
-            </a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<!--/ FAQ modal-->
+
+<!-- VENUE Modal-->
+
+<div class="modal fade" id="venueModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Venue</h4>
+          Here is some information about our venue.
+      </div>
+      <div class="modal-body">
+        
+         
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<!--/VENUE modal-->
+
+
+<!-- Callout -->
+    <div class="callout">
+        <div class="vert-text">
+            <h2>"You will learn more at CUSEC in 3 days than your entire 1st year of university" <br/>-  Michel Parisien </h2>
         </div>
     </div>
+    <!--/Callout -->
 
-        <div class="row">
-            <div class="col-xs-6 col-sm-6" id="sponsorPhoto">
-                <a href="https://www.google.ca/">
-                    <img src="images/speakers/1024px-La_Banquise_Poutine.jpg" class="img-responsive" >
-                </a>
+
+    <!-- Speakers -->
+    <div id="speakers" class="speakers">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4 text-center">
+                    <h2>Speakers</h2>
+                    <hr>
+                </div>
             </div>
-
-            <div class="col-xs-6 col-sm-6" id="sponsorPhoto">
-                <a href="http://www.shopify.com/">
-                    <img src="images/speakers/1024px-La_Banquise_Poutine.jpg" class="img-responsive" >
-                </a>
+            <div class="row">
+                <div class="col-md-2 col-md-offset-2 text-center">
+                    <div class="speakerPerson">
+                        <img src="http://placehold.it/140x140" class="img-circle">
+                        <h4>Aaron Patterson</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a lacus sed diam convallis posuere at eget erat.</p>
+                    </div>
+                </div>
+                <div class="col-md-2 text-center">
+                    <div class="speakerPerson">
+                         <img src="http://placehold.it/140x140" class="img-circle">
+                        <h4>Julie Pagano</h4>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a lacus sed diam convallis posuere at eget erat.</p>
+                    </div>
+                </div>
+                <div class="col-md-2 text-center">
+                    <div class="speakerPerson">
+                         <img src="http://placehold.it/140x140" class="img-circle">
+                        <h4>Camille Fournier</h4>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a lacus sed diam convallis posuere at eget erat.</p>
+                    </div>
+                </div>
+                <div class="col-md-2 text-center">
+                    <div class="speakerPerson">
+                         <img src="http://placehold.it/140x140" class="img-circle">
+                        <h4>Sandi Metz</h4>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a lacus sed diam convallis posuere at eget erat.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-2 col-md-offset-2 text-center">
+                    <div class="speakerPerson">
+                         <img src="http://placehold.it/140x140" class="img-circle">
+                        <h4>Dr. Jeff Chastine</h4>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a lacus sed diam convallis posuere at eget erat.</p>
+                    </div>
+                </div>
+                <div class="col-md-2 text-center">
+                    <div class="speakerPerson">
+                         <img src="http://placehold.it/140x140" class="img-circle">
+                        <h4>Bruce Schneir</h4>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a lacus sed diam convallis posuere at eget erat.</p>
+                    </div>
+                </div>
+                <div class="col-md-2 text-center">
+                    <div class="speakerPerson">
+                        <img src="http://placehold.it/140x140" class="img-circle">
+                        <h4>Speaker</h4>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a lacus sed diam convallis posuere at eget erat.</p>
+                    </div>
+                </div>
+                <div class="col-md-2 text-center">
+                    <div class="speakerPerson">
+                         <img src="http://placehold.it/140x140" class="img-circle">
+                        <h4>Speaker</h4>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a lacus sed diam convallis posuere at eget erat.</p>
+                    </div>
+                </div>
             </div>
         </div>
-</section>
+    </div>
+    <!-- /Speakers -->
+
+<!-- schools -->
+    <div class="schools" id="schools">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center">
+                    <div class="row">
+                    <div class="col-md-4 col-md-offset-4 text-center">
+                    <h2>Schools</h2>
+                    <hr>
+                </div>
+                        
+                    </div>
+                    <h3>Get in touch with your school's Head Delegate to find out more about getting to CUSEC with your school!</h3>
+                    <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                    <h3>Carleton University</h3>
+                        <h5><a href="mailto:laura.marie.alkhoury@gmail.com">Laura Alkhoury</a></h5>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                    <h3>Concordia University</h3>
+                        <h5><a href="mailto:">TingLi Lorigiano</a></h5>
+                    </div>
+                    </div>
+                    
+                        <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                    <h3>McGill University</h3>
+                        <h5><a href="mailto:laura.marie.alkhoury@gmail.com">Maude Lemaire</a></h5>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                    <h3>McMaster University</h3>
+                        <h5><a href="mailto:">Peter Hoang</a></h5>
+                    </div>
+                    </div>
+                    
+                    
+                        <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                    <h3>Queen's University</h3>
+                        <h5><a href="mailto:laura.marie.alkhoury@gmail.com">James Pang</a></h5>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                    <h3>University of Cincinnati</h3>
+                        <h5><a href="mailto:">Angelika Modawal</a></h5>
+                    </div>
+                    </div>
+                    
+                    
+                        <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                    <h3>University of Guelph</h3>
+                        <h5><a href="mailto:laura.marie.alkhoury@gmail.com">Julian Hovart</a></h5>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                    <h3>University of Ottawa</h3>
+                        <h5><a href="mailto:">Keiko Climaco</a></h5>
+                    </div>
+                    </div>
+                    
+                     <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                    <h3>University of Toronto</h3>
+                        <h5><a href="mailto:laura.marie.alkhoury@gmail.com">Edward Ntiri</a></h5>
+                        <h5><a href="mailto:laura.marie.alkhoury@gmail.com">Tahia Khan</a></h5>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                    <h3>University of Waterloo</h3>
+                        <h5><a href="mailto:">Farwa Naqi</a></h5>
+                    </div>
+                    </div>
+                    
+                    <div class="row">
+                    <div class="col-md-12  col-sm-12">
+                    <h3>York University</h3>
+                        <h5><a href="mailto:ursulasarracini@gmail.com">Ursula Sarracini</a></h5>
+                    </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /schools -->
+
+
     
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+    <!-- Sponsors -->
+    <div id="sponsors" class="sponsors">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4 text-center">
+                    <h2>Our Sponsors</h2>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 text-center">
+                      <div class="sponsor-item">
+                        <a href="#">
+                            <img class="img-portfolio img-responsive" src="http://i.imgur.com/2lxdt6e.png">
+                        </a>
+                        
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                      <div class="sponsor-item">
+                        <a href="#">
+                            <img class="img-portfolio img-responsive" src="http://i.imgur.com/7be1cCg.png">
+                        </a>
+                        
+                    </div>
+                </div>
+            
+            
+                <div class="col-md-3  text-center">
+                      <div class="sponsor-item">
+                        <a href="#">
+                            <img class="img-portfolio img-responsive" src="http://i.imgur.com/KTxQxzx.png">
+                        </a>
+                       
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="sponsor-item">
+                        <a href="#">
+                            <img class="img-portfolio img-responsive" src="http://i.imgur.com/Y34fakm.png">
+                        </a>
+                        
+                    </div>
+                </div>
+                </div>
+               <div class="row">
+                <div class="col-md-3 text-center">
+                      <div class="sponsor-item">
+                        <a href="#">
+                            <img class="img-portfolio img-responsive" src="http://i.imgur.com/oMnyRKh.png">
+                        </a>
+                        
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                      <div class="sponsor-item">
+                        <a href="#">
+                            <img class="img-portfolio img-responsive" src="http://i.imgur.com/ookiSma.png">
+                        </a>
+                        
+                    </div>
+                </div>
+            
+            
+                <div class="col-md-3  text-center">
+                      <div class="sponsor-item">
+                        <a href="#">
+                            <img class="img-portfolio img-responsive" src="http://i.imgur.com/i60m3lv.png">
+                        </a>
+                       
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="sponsor-item">
+                        <a href="#">
+                            <img class="img-portfolio img-responsive" src="http://i.imgur.com/Y34fakm.png">
+                        </a>
+                        
+                    </div>
+                </div>
+                </div>
+            
+        </div>
+    </div>
+    <!-- /spnsonrs -->
+
+    
+
+    <!-- Map -->
+    <div id="contact" class="map">
+      <div id="map_canvas"></div>
+    </div>
+    <!-- /Map -->
+
+    <!-- Footer -->
+    <footer>
+       
+    </footer>
+    <!-- /Footer -->
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <!-- Custom JavaScript for the Side Menu and Smooth Scrolling -->
     <script>
     $("#menu-close").click(function(e) {
         e.preventDefault();
@@ -363,61 +539,41 @@
         $("#sidebar-wrapper").toggleClass("active");
     });
     </script>
-     <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
-     <script>    
- 
-      function init_map() {
-        var var_location = new google.maps.LatLng(45.497582,-73.567407);
- 
-        var var_mapoptions = {
-            center: var_location,
-            panControl: false,
-            zoomControl: false,
-            scaleControl: false,
-            scrollControl: false,
-            zoom:16
-        };
- 
-        var var_marker = new google.maps.Marker({
-            position: var_location,
-            map: var_map,
-            title:"York University"});
- 
-        var var_map = new google.maps.Map(document.getElementById("map-container"),
-            var_mapoptions);
- 
-        var_marker.setMap(var_map);    
- 
-      }
- 
-      google.maps.event.addDomListener(window, 'load', init_map);
- 
-    </script>
     <script>
-    $(document).ready(function() {
-    
-    /* Every time the window is scrolled ... */
-    $(window).scroll( function(){
-    
-        /* Check the location of each desired element */
-        $('.hideme').each( function(i){
-            
-            var bottom_of_object = $(this).position().top + $(this).outerHeight();
-            var bottom_of_window = $(window).scrollTop() + $(window).height();
-            
-            /* If the object is completely visible in the window, fade it it */
-            if( bottom_of_window > bottom_of_object ){
-                
-                $(this).animate({'opacity':'1'},500);
-                    
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
             }
-            
-            }); 
-    
         });
-    
     });
     </script>
-   
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+<script>
+      var map;
+      function initialize() {
+        var mapOptions = {
+          zoom: 16,
+            scrollwheel: false,
+          center: new google.maps.LatLng(45.4975981,-73.5673338,21),
+            
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        map = new google.maps.Map(document.getElementById('map_canvas'),
+            mapOptions);
+      }
+
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
 </body>
+
 </html>
