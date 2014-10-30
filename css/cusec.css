@@ -156,6 +156,14 @@ i.service-icon {
   text-align: center;
 }
 
+.speakers a {
+  color: #fff;
+}
+
+a:hover {
+  color: #696B80;
+}
+
 /* Callout */
 
 .callout {
