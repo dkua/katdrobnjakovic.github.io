@@ -183,10 +183,12 @@ background-attachment: fixed;
 
 .sponsors {
   padding: 50px 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .sponsor-item {
-  margin-bottom: 25px;
+  margin: 25px auto;
     width:200px;
 }
 
