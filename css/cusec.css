@@ -25,6 +25,14 @@ body {
   font-weight: 700;
 }
 
+.header-container {
+  margin-bottom: 20px;
+}
+
+.btn-last {
+  margin-bottom: 20px;
+}
+
 /* Side Menu */
 
 #sidebar-wrapper {
@@ -167,7 +175,7 @@ a:hover {
 .callout {
   color: #ffffff;
   display: table;
-  height: 200px;
+  height: 250px;
   width: 100%;
   background: url("http://i.imgur.com/NJ28Ukm.jpg") no-repeat center center scroll; 
 background-attachment: fixed;
@@ -202,6 +210,10 @@ background-attachment: fixed;
   color: #000;
   background: #fff;
   padding: 50px 0;
+}
+
+.schools a {
+  text-decoration: underline;
 }
 
 .call-to-action .btn {
