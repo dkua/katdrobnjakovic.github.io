@@ -208,6 +208,13 @@ background-attachment: fixed;
   margin: 10px;
 }
 
+/* Code of Conduct*/
+.coc {
+  background: #260d21;
+  padding: 50px 0;
+  color: #ffffff;  
+}
+
 /* Map */
 
 .map {
