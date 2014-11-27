@@ -1,5 +1,6 @@
 /* Global Styles */
 
+
 html,
 body {
   height: 100%;
@@ -141,9 +142,9 @@ body {
 /* Speakers */
 
 .speakers {
-  background: #260d21;
+  background: #fff;
   padding: 50px 0;
-  color: #ffffff;
+  color: #260d21;
 }
 
 .speakerPerson {
@@ -163,13 +164,26 @@ i.service-icon {
 }
 
 .speakers a {
-  color: #fff;
+  color: #260d21;
 }
 
 a:hover {
   color: #696B80;
 }
 
+/* Team */
+.team {
+  background: #260d21;
+  padding: 50px 0;
+  color: #fff;
+}
+.team a {
+  color: #fff;
+}
+
+a:hover {
+  color: #696B80;
+}
 /* Callout */
 
 .callout {
@@ -209,14 +223,19 @@ background-attachment: fixed;
 /* schools*/
 
 .schools {
-  color: #000;
-  background: #fff;
+  color: #fff;
+  background: #260d21;
   padding: 50px 0;
 }
 
 .schools a {
   text-decoration: underline;
-  color: #000;
+  color: #fff;
+}
+
+
+a:hover {
+  color: #696B80;
 }
 
 .call-to-action .btn {
@@ -234,7 +253,9 @@ background-attachment: fixed;
   color: white;
 }
 
-
+a:hover {
+  color: #696B80;
+}
 /* Map */
 
 .map {
@@ -246,7 +267,7 @@ background-attachment: fixed;
 footer {
   padding: 20px 0;
   background: #260d21;
-  color: #ffffff;
+  color: #fff;
 }
 
 .top-scroll {
